@@ -124,10 +124,10 @@ window.addEventListener("keydown", (e) => {
     }
 });
 
-const folder = "Ragnar";
-const root = `https://mwmwmw.github.io/files/${folder}`;
-const files = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-const ext = "jpg";
+const folder = "movie-posters";
+const root = `https://greatfighter.github.io/Spencer.github.io/resources/pics/${folder}`;
+const files = "1";
+const ext = "jpeg";
 const IMAGE_SIZE = 512;
 
 let imageContainer = document.getElementById("images");
