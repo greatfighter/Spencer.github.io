@@ -154,6 +154,7 @@ function resizeImage(image, size = IMAGE_SIZE) {
 function makeThreeTexture(image) {
 	let tex = new THREE.Texture(image);
 					tex.needsUpdate = true;
+                    tex.crossOrigin = "";
 	return tex
 }
 
